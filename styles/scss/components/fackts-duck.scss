@@ -1,0 +1,210 @@
+.fackts-duck {
+  position: relative;
+  &__img {
+    top: 131px;
+    left: 326px;
+    display:block;
+    max-width:100%;
+    height:auto;
+    position: absolute;
+  }
+  &__text {
+    @include fontMain;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.6px;
+    box-sizing: border-box;
+    height: 70px;
+    width: 240px;
+  }
+}
+.fackts-duck__text_left-column {
+  float: left;
+  margin-left: 21px;
+  margin-top: 61px;
+  position: relative;
+  &:before{
+    content: '';
+    background: url('../../img/facts-duck/duck-top.png') no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -26px;
+    left: -209px;
+  }
+}
+.fackts-duck__text1{
+  margin-left: 248px;
+  margin-bottom: 34px;
+  &:after {
+    @include pointerLine;
+    width: 98px;
+    transform: rotate(10deg);
+    top: 17px;
+    right: -107px;
+  }
+  &:before {
+    @include pointerCircle;
+    top: 21px;
+    right: -151px;
+  }
+}
+.fackts-duck__text2{
+  margin-left: 125px;
+  margin-bottom: 59px;
+  &:after {
+    @include pointerLine;
+    width: 156px;
+    transform: rotate(49deg);
+    top: 222px;
+    right: -18px;
+  }
+  &:before {
+    @include pointerCircle;
+    top: 280px;
+    right: -26px;
+  }
+}
+.fackts-duck__text3{
+  margin-bottom: 55px;
+  &:after {
+    @include pointerLine;
+    width: 126px;
+    transform: rotate(29deg);
+    top: 308px;
+    right: 118px;
+  }
+  &:before {
+    @include pointerCircle;
+    top: 331px;
+    right: 83px;
+  }
+}
+.fackts-duck__text4{
+  margin-bottom: 62px;
+  &:after {
+    @include pointerLine;
+    width: 102px;
+    transform: rotate(26deg);
+    top: 416px;
+    right: 179px;
+  }
+  &:before {
+    @include pointerCircle;
+    top: 429px;
+    right: 143px;
+  }
+}
+.fackts-duck__text5{
+  width: 200px;
+  &:after {
+    @include pointerLine;
+    width: 230px;
+    transform: rotate(7deg);
+    top: 528px;
+    right: 12px;
+  }
+  &:before {
+    @include pointerCircle;
+    top: 524px;
+    right: -41px;
+  }
+}
+.fackts-duck__text_right-column {
+  float: right;
+  margin-top: 72px;
+  margin-right: 40px;
+  &:after{
+    content: '';
+    background: url('../../img/facts-duck/duck-down.png') no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 476px;
+    left: 988px;
+  }
+}
+.fackts-duck__text6{
+  margin-left: 192px;
+  margin-bottom: 43px;
+  width: 220px;
+  &:after {
+    @include pointerLine;
+    width: 98px;
+    transform: rotate(-25deg);
+    top: 157px;
+    left: 725px;
+  }
+  &:before {
+    @include pointerCircle;
+    top: 178px;
+    left: 690px;
+  }
+}
+.fackts-duck__text7{
+  margin-left: 192px;
+  margin-bottom: 89px;
+  width: 257px;
+  &:after {
+    @include pointerLine;
+    width: 89px;
+    transform: rotate(26deg);
+    top: 229px;
+    left: 731px;
+  }
+}
+.fackts-duck__text8{
+  margin-left: 128px;
+  margin-bottom: 59px;
+  width: 278px;
+  &:after {
+    @include pointerLine;
+    width: 119px;
+    transform: rotate(10deg);
+    top: 391px;
+    left: 633px;
+  }
+  &:before {
+    @include pointerCircle;
+    top: 356px;
+    left: 579px;
+  }
+}
+.fackts-duck__text9{
+  margin-left: 95px;
+  margin-bottom: 58px;
+  width: 215px;
+  &:after {
+    @include pointerLine;
+    width: 156px;
+    transform: rotate(-17deg);
+    top: 562px;
+    left: 568px;
+  }
+  &:before {
+    @include pointerCircle;
+    top: 572px;
+    left: 520px;
+  }
+}
+.fackts-duck__text10{
+  margin-left: 65px;
+  width: 290px;
+  height: 28px;
+  &:after {
+    @include pointerLine;
+    width: 126px;
+    transform: rotate(2deg);
+    top: 661px;
+    left: 558px;
+  }
+  &:before {
+    @include pointerCircle;
+    top: 21px;
+    right: -151px;
+    display: none;
+  }
+}
+.fackts-duck__text-n {
+  display: none;
+}

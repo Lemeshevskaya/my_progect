@@ -1,0 +1,57 @@
+.header {
+  &__menu {
+    width: 83.75%;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+  }
+  &__item {
+    display: flex;
+    color: $colorWhite;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Rubik medium", sans-serif;
+    font-size:  $font-size24;
+    margin-top: 58px;
+    position: relative;
+    letter-spacing:3px;
+    z-index: 1;
+    &:hover {
+      text-decoration: none;
+      color: $colorOrange;
+    }
+    &__navigation {
+      position: sticky;
+    }
+  }
+  &__banner {
+    margin: 85px auto 50px;
+  }
+}
+.logo {
+  background: url('../../img/header/logo.png') no-repeat;
+  width: 112px;
+  height: 84px;
+}
+.store {
+  background: url('../../img/header/basket.png') no-repeat;
+  width: 70px;
+  height: 85px;
+}
+.banner__img {
+
+  display:block;
+  max-width:100%;
+  height:auto;
+  animation:  move_banner 0.5s linear;
+}
+.active1:before {
+  content: '';
+  position: absolute;
+  height: 40px;
+  width: 35px;
+  background: $colorOrange;
+  left: -17px;
+  top: -12px;
+  z-index: -1;
+}

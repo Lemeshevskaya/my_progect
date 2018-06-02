@@ -1,0 +1,71 @@
+.habitat-duck__content {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.habitat-duck {
+  &__text {
+    display: flex;
+    width: 500px;
+    height: 225px;
+    justify-content: center;
+    @include fontMain;
+    letter-spacing:  $letter-spacing0_7;
+    line-height: 1.2;
+    font-size: $font-size18;
+    text-indent: 26px;
+    margin: 45px 0 1px 51px;
+    position: relative;
+  }
+}
+.habitat-duck__google-map {
+  height: 375px;
+  width: 500px;
+}
+.habitat-duck__map {
+  height: 100%;
+  width: 327px;
+  margin-left: 145px;
+}
+.habitat-duck__item {
+  @include fontMain;
+  letter-spacing:  $letter-spacing0_7;
+  line-height: 1.2;
+  font-size:  $font-size18;
+  margin-left: 125px;
+  margin-top: 23px;
+  &:before {
+    content: '';
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    margin-left: -30px;
+  }
+}
+.habitat-duck__item1 {
+  &:before {
+    background: $colorWhite;
+  }
+}
+.habitat-duck__item2 {
+  &:before {
+    background: $colorOrange;
+  }
+}
+.habitat-duck__text2 {
+  width: 442px;
+  height: 100px;
+  margin-left: 128px;
+  margin-top: 97px;
+}
+.habitat-duck__google-map {
+  height: 290px;
+  width: 424px;
+  border: $borderWight;
+  margin-left: 96px;
+  margin-top: 27px;
+}
+.habitat-duck__button {
+  margin-left: 270px;
+  margin-top: 50px;
+}

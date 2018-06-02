@@ -1,0 +1,38 @@
+@mixin fontMain {
+  color: $colorWhite;
+  font-family: "Rubik regular", sans-serif;
+}
+@mixin fontMain2 {
+  color: $colorWhite;
+  font-family: "Rubik medium", sans-serif;
+}
+@mixin textSquare {
+      content: '';
+      display: block;
+      position: absolute;
+      background: $colorOrange;
+      z-index: -1;
+}
+@mixin pointerLine {
+  content: '';
+  border: 0.2px dashed $colorWhite;
+  height: 0.4px;
+  position: absolute;
+  z-index: 1;
+}
+@mixin pointerCircle {
+  content: '';
+  border: 1.5px dashed $colorWhite;
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+@mixin pointerCircleMedia {
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

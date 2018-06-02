@@ -1,0 +1,137 @@
+.media-duck__title2 {
+  @include fontMain;
+  letter-spacing: $letter-spacing0_7;
+  line-height: 1.3;
+  font-size:  $font-size24;
+  margin: 24px 0 29px 49px;
+}
+/*foto*/
+.media-duck__carousel-foto {
+  width: 578px;
+  height: 361px;
+  border: $borderWight;
+  border-radius: 3px;
+  margin-left: 40%;
+  margin-top: -262px;
+}
+.carousel-indicators li {
+  opacity: 0.5;
+  display: inline-block;
+  height: 57px;
+  width: 92px;
+  margin: 0 12px;
+  border-right: 1px solid $colorWhite;
+  border-top: 1px solid $colorWhite;
+}
+.carousel-indicators .active {
+  @extend .media-duck__preview:hover;
+}
+.carousel-indicators {
+  width: 9999px;
+  height: 57px;
+  transition: margin-left 250ms;
+  margin: 0;
+  bottom: 0;
+  justify-content: flex-start;
+}
+.media-duck__preview:hover {
+  opacity: 1;
+}
+.carousel-indicators li:after {
+  display: none;
+}
+.media-duck {
+  &__control {
+    &:after {
+      content: "";
+      display: inline-block;
+      border: 30px solid transparent;
+      position: absolute;
+    }
+    &-prev {
+      margin-left: -82px;
+      &:after {
+        border-right: 28px solid $colorWhite;
+      }
+    }
+    &-next {
+      margin-right: -45px;
+      width: 11px;
+      &:after {
+        border-left: 28px solid $colorWhite;
+      }
+    }
+  }
+  &__carousel-preview {
+    width: 468px;
+    height: 58px;
+    overflow: hidden;
+    position: absolute;
+    margin: 278px 55px 22px;
+    & img {
+      display: block;
+    }
+  }
+  &__control-preview {
+    display: inline-block;
+    border: 17px solid transparent;
+    position: absolute;
+    z-index: 15;
+    opacity: .5;
+    &:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+    &-prev {
+      border-right: 18px solid $colorWhite;
+      top: 290px;
+      left: 2px;
+    }
+    &-next {
+      border-left: 18px solid $colorWhite;
+      top: 290px;
+      left: 542px;
+    }
+  }
+  &__text {
+    @include fontMain;
+    font-size: 13.75px;
+    position: absolute;
+
+  }
+  &__text-foto {
+    top: 72px;
+    left: -75px;
+  }
+}
+.carousel-inner {
+  width: 100%;
+  height: 390px;
+  position: absolute;
+}
+   /*video*/
+.media-duck__carousel-video {
+  width: 536px;
+  height: 333px;
+  border: 2px solid $colorWhite;
+  border-radius: 3px;
+  margin-left: 100px;
+}
+.active-window {
+  opacity: 1!important;
+  z-index: 25;
+}
+.not-active-window {
+  opacity: 0.5;
+}
+.media-duck__text-video {
+  top: 343px;
+  left: 12px;
+}
+.carousel-inner_video {
+  height: 362px;
+}
+/*button*/
+.fackts-duck__button {
+  margin:32px 79% 30px;
+}

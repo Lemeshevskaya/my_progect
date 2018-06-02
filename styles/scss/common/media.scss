@@ -1,0 +1,239 @@
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 500px) and (max-width: 1059.98px) {
+  .header {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .header__menu {
+    flex-direction: column;
+  }
+  .header__item {
+    margin-top: 15px;
+  }
+  .header__navigation {
+    flex-direction: column;
+    float: left;
+  }
+  .banner__img {
+    width: 500px;
+  }
+  .fackts-duck__img {
+    display: none;
+
+  }
+  .fackts-duck__text1 {
+    margin-left: 0;
+    &:after {
+      display: none;
+    }
+    &:before {
+      display: none;
+    }
+  }
+  .fackts-duck__text2 {
+    margin-left: 0;
+    &:after {
+      display: none;
+    }
+    &:before {
+      display: none;
+    }
+  }
+  .fackts-duck__text3 {
+    &:after {
+      display: none;
+    }
+    &:before {
+      display: none;
+    }
+  }
+  .fackts-duck__text4 {
+    &:after {
+      display: none;
+    }
+    &:before {
+      display: none;
+    }
+  }
+  .fackts-duck__text5 {
+    &:after {
+      display: none;
+    }
+    &:before {
+      display: none;
+    }
+  }
+  .fackts-duck__text6 {
+    margin-left: 0;
+    &:after {
+      display: none;
+    }
+    &:before {
+      display: none;
+    }
+  }
+  .fackts-duck__text7 {
+    margin-left: 0;
+    &:after {
+      display: none;
+    }
+  }
+  .fackts-duck__text8 {
+    margin-left: 0;
+    &:after {
+      display: none;
+    }
+    &:before {
+      display: none;
+    }
+  }
+  .fackts-duck__text9 {
+    margin-left: 0;
+    &:after {
+      display: none;
+    }
+    &:before {
+      display: none;
+    }
+  }
+  .fackts-duck__text10 {
+    margin-left: 0;
+    &:after {
+      display: none;
+    }
+
+  }
+  .fackts-duck__text-n {
+    display: inline;
+    margin-right: 10px;
+    font-weight: bold;
+    color: $colorOrange;
+
+  }
+  .fackts-duck__text_right-column {
+    float: left;
+    margin-left: 2%;
+  }
+  .fackts-duck__text_left-column:before {
+    display: none;
+  }
+  .wrap:after {
+    display: none;
+  }
+  .media-duck__carousel-foto {
+    margin-left: 5%;
+    margin-top: 0;
+    float: left;
+  }
+  .media-duck__carousel-video {
+    margin-left: 5%;
+    margin-top: 0;
+    float: left;
+  }
+  .fackts-duck__button {
+    margin: 32px 30px;
+    float: left;
+  }
+  .navigation-right {
+    margin-left: 89%!important;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 1060px) and (max-width: 1199.98px) {
+
+  .fackts-duck__text1{
+    &:after {
+      display: none;
+    }
+    &:before {
+      content: '1';
+      @include pointerCircleMedia;
+    }
+  }
+  .fackts-duck__text2{
+    &:after {
+      display: none;
+    }
+    &:before {
+      content: '2';
+      @include pointerCircleMedia;
+    }
+  }
+  .fackts-duck__text3{
+    &:after {
+      display: none;
+    }
+    &:before {
+      content: '3';
+      @include pointerCircleMedia;
+    }
+  }
+  .fackts-duck__text4{
+    &:after {
+      display: none;
+    }
+    &:before {
+      content: '4';
+      @include pointerCircleMedia;
+    }
+  }
+  .fackts-duck__text5{
+    &:after {
+      display: none;
+    }
+    &:before {
+      content: '5,10';
+      @include pointerCircleMedia;
+    }
+  }
+  .fackts-duck__text6{
+    &:after {
+      display: none;
+    }
+    &:before {
+      content: '6,7';
+      @include pointerCircleMedia;
+    }
+  }
+  .fackts-duck__text7{
+    &:after {
+      display: none;
+    }
+  }
+  .fackts-duck__text8{
+    &:after {
+      display: none;
+    }
+    &:before {
+      content: '8';
+      @include pointerCircleMedia;
+    }
+  }
+  .fackts-duck__text9{
+    &:after {
+      display: none;
+    }
+    &:before {
+      content: '9';
+      @include pointerCircleMedia;
+    }
+  }
+  .fackts-duck__text10{
+    &:after {
+      display: none;
+    }
+
+  }
+  .fackts-duck__text-n {
+    display: inline;
+    margin-right: 10px;
+    font-weight: bold;
+    color: $colorOrange;
+
+  }
+  .wrap:after {
+    display: none;
+  }
+}

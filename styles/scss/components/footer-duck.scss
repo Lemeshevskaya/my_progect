@@ -1,0 +1,74 @@
+.footer-duck {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 20px!important;
+  &__menu {
+    flex-direction: column;
+    @include fontMain;
+    font-size: $font-size18;
+    line-height: $line-height1_2;
+    margin-left: 10%;
+    margin-top: 24px;
+
+  }
+  &__banner {
+    height: 130px;
+    width: 233px;
+  }
+  &__item {
+  color: $colorWhite;
+    &:hover {
+      text-decoration: none;
+      color: $colorOrange;
+    }
+  }
+  &__banner {
+    margin-left: 14%;
+    margin-top: 20px;
+  }
+  &__text-contact{
+    margin-left: 9%;
+    margin-top: 4%;
+  }
+  &__title {
+    @include fontMain;
+    font-size: $font-size18;
+    line-height: $line-height1_2;
+    letter-spacing: $letter-spacing0_7;
+  }
+  &__text {
+    margin-top: 3%;
+    @include fontMain;
+    font-size: 14px;
+    line-height: $line-height1_2;
+    letter-spacing: $letter-spacing0_7;
+  }
+  &__text-social{
+    margin-left: 3%;
+    margin-top: 4%;
+  }
+  &__cosial-icons {
+    float: left;
+  }
+  &__icon {
+  float: left;
+}
+  &__cosial-icon {
+    float: left;
+    width: 35px;
+    background: url("../img/footer-duck/icon-sprites.png") no-repeat;
+    height: 35px;
+    margin-right: 6px;
+    margin-top: 3px;
+  }
+}
+.facebook {
+  background-position: -59px -10px;
+}
+.vk {
+  background-position: -9px -10px;
+}
+.instagram {
+  background-position: -111px -10px;
+}

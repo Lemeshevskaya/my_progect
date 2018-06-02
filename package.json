@@ -1,0 +1,25 @@
+{
+  "name": "myprogect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass styles/scss/common/style.scss -o build/styles",
+    "min": "minify -o build/styles/result.min.css build/styles/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "mdbootstrap": "^4.5.3",
+    "popper.js": "^1.14.3",
+    "reset-css": "latest"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.0",
+    "minifier": "latest",
+    "node-sass": "^4.7.2"
+  },
+  "description": ""
+}
